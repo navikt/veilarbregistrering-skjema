@@ -1,0 +1,17 @@
+.idea/*
+!.idea/runConfigurations/
+*.iml
+*.ipr
+*.iws
+*.log
+*.gz
+.checkstyle
+.classpath
+.pmd
+.project
+.settings
+.DS_Store
+target
+*.jsp
+activemq-data/
+bash.exe.stackdump

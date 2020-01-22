@@ -1,0 +1,12 @@
+{
+  "type": "record",
+  "namespace": "no.nav.arbeid.veilarbregistrering",
+  "name": "Registrering",
+  "fields":
+    [{
+      "type": "string",
+      "name": "aktorid"
+    }
+
+    ]
+}
