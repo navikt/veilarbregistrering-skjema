@@ -1,6 +1,6 @@
 {
   "type": "record",
-  "namespace": "no.nav.arbeid.veilarbregistrering",
+  "namespace": "no.nav.arbeid.soker.registrering",
   "name": "Registrering",
   "fields":
     [{

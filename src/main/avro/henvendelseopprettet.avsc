@@ -1,0 +1,12 @@
+{
+  "type": "record",
+  "namespace": "no.nav.arbeid.soker.oppgave",
+  "name": "Henvendelse",
+  "fields":
+    [{
+      "type": "string",
+      "name": "aktorid"
+    }
+
+    ]
+}
