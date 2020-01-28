@@ -1,7 +1,7 @@
 {
   "type": "record",
   "namespace": "no.nav.arbeid.soker.registrering",
-  "name": "Registrering",
+  "name": "ArbeidssokerRegistrertEvent",
   "fields":
     [{
       "type": "string",

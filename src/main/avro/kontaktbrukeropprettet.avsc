@@ -1,7 +1,7 @@
 {
   "type": "record",
   "namespace": "no.nav.arbeid.soker.oppgave",
-  "name": "Henvendelse",
+  "name": "KontaktBrukerOpprettetEvent",
   "fields":
     [{
       "type": "string",
