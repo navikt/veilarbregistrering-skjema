@@ -1,12 +1,9 @@
 {
-  "type": "record",
-  "namespace": "no.nav.arbeid.soker.registrering",
-  "name": "ArbeidssokerRegistrertEvent",
-  "fields":
-    [{
-      "type": "string",
-      "name": "aktorid"
-    }
-
-    ]
+  "type" : "record",
+  "namespace" : "no.nav.arbeid.soker.registrering",
+  "name" : "ArbeidssokerRegistrertEvent",
+  "fields" : [ {
+      "type" : "string",
+      "name" : "aktorid"
+    } ]
 }

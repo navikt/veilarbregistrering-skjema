@@ -1,12 +1,9 @@
 {
-  "type": "record",
-  "namespace": "no.nav.arbeid.soker.oppgave",
-  "name": "KontaktBrukerOpprettetEvent",
-  "fields":
-    [{
-      "type": "string",
-      "name": "aktorid"
-    }
-
-    ]
+  "type" : "record",
+  "namespace" : "no.nav.arbeid.soker.oppgave",
+  "name" : "KontaktBrukerOpprettetEvent",
+  "fields" : [ {
+      "type" : "string",
+      "name" : "aktorid"
+    } ]
 }
