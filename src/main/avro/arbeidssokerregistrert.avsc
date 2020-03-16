@@ -8,10 +8,12 @@
     },
     {
        "type" : "string",
-       "name" : "brukersSituasjon"
+       "name" : "brukersSituasjon",
+       "default" : null
     },
     {
        "type" : "string",
-       "name" : "registreringOpprettet"
+       "name" : "registreringOpprettet",
+       "default" : null
     }]
 }
