@@ -5,5 +5,13 @@
   "fields" : [ {
       "type" : "string",
       "name" : "aktorid"
-    } ]
+    },
+    {
+       "type" : "string",
+       "name" : "brukersSituasjon"
+    },
+    {
+       "type" : "string",
+       "name" : "registreringOpprettet"
+    }]
 }
