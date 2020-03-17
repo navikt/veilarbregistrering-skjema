@@ -7,12 +7,12 @@
       "name" : "aktorid"
     },
     {
-       "type" : "string",
+       "type" : [ "null", "string" ],
        "name" : "brukersSituasjon",
        "default" : null
     },
     {
-       "type" : "string",
+       "type" : [ "null", "string" ],
        "name" : "registreringOpprettet",
        "default" : null
     }]
