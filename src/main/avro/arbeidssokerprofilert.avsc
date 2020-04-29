@@ -1,0 +1,18 @@
+{
+  "type" : "record",
+  "namespace" : "no.nav.arbeid.soker.profilering",
+  "name" : "ArbeidssokerProfilertEvent",
+  "fields" : [ {
+      "type" : "string",
+      "name" : "aktorid"
+    },
+    {
+       "type" : "enum",
+       "name" : "profilering",
+       "symbols" : ["GODE_MULIGHETER", "BEHOV_FOR_VEILEDNING", "OPPGITT_HINDRINGER"]
+    },
+    {
+       "type" : "string",
+       "name" : "profileringGjennomfort"
+    }]
+}
