@@ -10,7 +10,7 @@
        "name" : "profilering",
        "type" : {
          "type" : "enum",
-         "name" : "profilering",
+         "name" : "Profilering",
          "symbols" : ["ANTATT_GODE_MULIGHETER", "ANTATT_BEHOV_FOR_VEILEDNING", "OPPGITT_HINDRINGER"]
        }
     },
