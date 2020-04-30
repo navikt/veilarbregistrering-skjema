@@ -7,11 +7,11 @@
       "name" : "aktorid"
     },
     {
-       "name" : "Profilering",
+       "name" : "profilering",
        "type" : {
          "type" : "enum",
-         "name" : "Profilering",
-         "symbols" : ["GODE_MULIGHETER", "BEHOV_FOR_VEILEDNING", "OPPGITT_HINDRINGER"]
+         "name" : "profilering",
+         "symbols" : ["ANTATT_GODE_MULIGHETER", "ANTATT_BEHOV_FOR_VEILEDNING", "OPPGITT_HINDRINGER"]
        }
     },
     {
