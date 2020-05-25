@@ -5,5 +5,14 @@
   "fields" : [ {
       "type" : "string",
       "name" : "aktorid"
+    },
+    {
+       "name" : "oppgavetype",
+       "type" : [ "null", {
+         "type" : "enum",
+         "name" : "Oppgavetype",
+         "symbols" : ["OPPHOLDSTILLATELSE", "UTVANDRET"]
+       } ],
+       "default" : null
     } ]
 }
