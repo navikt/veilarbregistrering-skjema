@@ -3,7 +3,7 @@ name: Release (Github Package Registry)
 on:
   push:
     branches:
-      - 'master'
+      - 'main'
 
 jobs:
   release:
