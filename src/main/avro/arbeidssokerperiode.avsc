@@ -1,0 +1,57 @@
+{
+  "type" : "record",
+  "namespace" : "no.nav.arbeid.soker.periode",
+  "name" : "ArbeidssokerperiodeEvent",
+  "fields" : [
+    {
+      "name" : "id",
+      "type" : "long"
+    },
+    {
+      "name" : "aktorid",
+      "type" : "string"
+    },
+    {
+      "name" : "foedselsnummer",
+      "type" : "string"
+    },
+    {
+       "name" : "fraOgMed",
+       "logicalType": "timestamp-millis",
+       "type": "long"
+    },
+    {
+      "name": "tilOgMed",
+      "type": [
+        "null",
+        {
+          "type": "long",
+          "logicalType": "timestamp-millis"
+        }
+      ],
+      "default": null
+    },
+    {
+      "name": "opprettet",
+      "type": [
+        "null",
+        {
+          "type": "long",
+          "logicalType": "timestamp-millis"
+        }
+      ],
+      "default": null
+    },
+    {
+      "name": "endret",
+      "type": [
+        "null",
+        {
+          "type": "long",
+          "logicalType": "timestamp-millis"
+        }
+      ],
+      "default": null
+    }
+  ]
+}
