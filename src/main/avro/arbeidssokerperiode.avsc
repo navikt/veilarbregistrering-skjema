@@ -13,8 +13,10 @@
     },
     {
        "name" : "fraOgMed",
-       "logicalType": "timestamp-millis",
-       "type": "long"
+       "type": {
+         "type": "long",
+         "logicalType": "timestamp-millis"
+       }
     },
     {
       "name": "tilOgMed",
